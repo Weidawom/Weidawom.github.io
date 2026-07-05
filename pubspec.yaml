@@ -1,29 +1,20 @@
 name: chengxiang_app
-description: "丞相 - 成长伙伴App"
+description: 丞相App - 成长伙伴系统
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.4
+  sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
-
-  # 自动更新所需依赖
   http: ^1.1.0
-  package_info_plus: ^8.0.0
-  flutter_downloader: ^1.11.6
-  permission_handler: ^11.1.0
-  open_file: ^3.4.1
-  
-  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0
 
 flutter:
   uses-material-design: true
